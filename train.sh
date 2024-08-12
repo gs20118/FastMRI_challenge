@@ -1,8 +1,8 @@
 python train.py \
   -b 1\
   -e 100 \
-  -l 0.002 \
-  -r 1000 \
+  -l 0.0002 \
+  -r 500 \
   -n 'test_FIVarnet_lrup' \
   -t '/home/Data/train/' \
   -v '/home/Data/val/'\

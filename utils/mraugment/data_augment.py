@@ -355,13 +355,13 @@ class DataAugmentor:
         parser.add_argument(
             '--aug_weight_shearing', 
             type=float,
-            default=1.0, 
+            default=0.5, 
             help='Weight of shearing probability. Augmentation probability will be multiplied by this constant'
         )
         parser.add_argument(
             '--aug_weight_scaling', 
             type=float, 
-            default=1.0, 
+            default=0.5, 
             help='Weight of scaling probability. Augmentation probability will be multiplied by this constant'
         )
         parser.add_argument(
@@ -373,13 +373,13 @@ class DataAugmentor:
         parser.add_argument(
             '--aug_weight_fliph', 
             type=float,
-            default=1.0, 
+            default=0.5, 
             help='Weight of horizontal flip probability. Augmentation probability will be multiplied by this constant'
         )
         parser.add_argument(
             '--aug_weight_flipv',
             type=float,
-            default=1.0, 
+            default=0.5, 
             help='Weight of vertical flip probability. Augmentation probability will be multiplied by this constant'
         ) 
 
